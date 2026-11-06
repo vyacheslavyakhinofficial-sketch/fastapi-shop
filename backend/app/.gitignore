@@ -1,0 +1,92 @@
+# === Виртуальное окружение ===
+venv/
+env/
+ENV/
+ENV.bak/
+.venv/
+.venv.bak/
+env.bak/
+
+# === Python-кэш и скомпилированные файлы ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Файлы среды и секреты (НИКОГДА не коммитьте их) ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+.vault-password
+secrets.yml
+secrets.yaml
+
+# === Логи ===
+*.log
+logs/
+*.pid
+
+# === IDE и редакторы ===
+# VS Code
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+*.iml
+out/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icr
+
+# === Тестовое покрытие и отчеты ===
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# === Базы данных и временные файлы ===
+*.
